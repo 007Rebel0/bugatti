@@ -1,0 +1,83 @@
+*{
+margin:0;
+padding:0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+background-image:url(bugatti.jpg);
+background-size:cover;
+height:100vh;
+background-position:center;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 5px 20px;
+    border: 1px solid bisque;
+    transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+    background-color: bisque;
+    color: cadetblue;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* .title{
+    position: absolute;
+    top: 12%;
+    left:82%;
+    transform: translate(-50%,-50%);
+} */
+
+.title h1{
+    background-color: rgb(48, 46, 44);
+    font-size: 100px;
+    border: 5px solid cadetblue;
+    color: brown;
+    border-radius: 100%;
+    transition: 0.4s ease;
+}
+.title h1:hover{
+    background-color:brown ;
+    color: rgb(48, 46, 44);
+    border-radius: 100%;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 85%;
+    left:82%;
+    transform: translate(-50%,-50%);
+     
+}
+
+.btn{
+    border: 5px solid cadetblue;
+    padding: 5px 20px;
+    color: cadetblue;
+    text-decoration: none;
+    border-radius: 22px;
+}
+
+.btn:hover{
+    background-color: bisque;
+    color:cadetblue
+}
